@@ -1305,13 +1305,6 @@ input, select, textarea {
     			align-items: center;       /* Vertical center */
     			justify-content: center; 
 			}
-
-		#header .logo {
-    			width: 5.5rem;
-    			height: 5.5rem;
-    			background-image: url('https://gfl2ordnance.github.io/images/02.png');
-    			background-size: contain;
-    			background-repeat: no-repeat;
 			
 			#header .logo .icon:before {
 				font-size: 2rem;
