@@ -1296,10 +1296,15 @@ input, select, textarea {
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
-    			background: url('https://gfl2ordnance.github.io/images/02.png') no-repeat center center/contain;
-    			margin: 0 auto 1.5em;
 			}
-			
+
+		#header .logo {
+    			width: 5.5rem;
+    			height: 5.5rem;
+    			background-image: url('https://gfl2ordnance.github.io/images/02.png');
+    			background-size: contain;
+    			background-repeat: no-repeat; }
+
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
