@@ -319,7 +319,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script> document.addEventListener('contextmenu', function(e) {e.preventDefault();});</script>
+			<script>(function() {document.addEventListener('contextmenu', blockAction);
+    				let touchStartTime;document.addEventListener('touchstart', function(e) {touchStartTime = new Date().getTime();}, {passive: true});document.addEventListener('touchend', function(e) {if (new Date().getTime() - touchStartTime > 500) {blockAction(e);}, {passive: false});
+    document.addEventListener('keydown', function(e) {if (e.key === 'Power' || e.key === 'VolumeDown') {blockAction(e);}});function blockAction(e) {e.preventDefault();}</script>
 		
 	</body>
 </html>
