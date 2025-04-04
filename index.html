@@ -320,7 +320,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script>document.addEventListener('contextmenu', function(e) {e.preventDefault();});</script>
-			<script>document.addEventListener('touchstart', function(e) {if (e.touches.length > 0) {this.startY = e.touches[0].clientY;}}, {passive: true});document.addEventListener('touchmove', function(e) {if (this.startY && Math.abs(e.touches[0].clientY - this.startY) > 10) {delete this.startY;}});document.addEventListener('touchend', function(e) {if (this.startY) {e.preventDefault();showProtectionMessage();}delete this.startY;});</script>
 			<script>document.addEventListener('keydown', function(e) {if ((e.key === 'Power' || e.keyCode === 80) ||(e.key === 'VolumeDown' || e.keyCode === 86)) {showProtectionMessage();}});</script>
 	</body>
 </html>
