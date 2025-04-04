@@ -1297,7 +1297,7 @@ input, select, textarea {
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 			background-image: url('https://gfl2ordnance.github.io/images/02.png');
-    			background-size: 80%;       /* Scales image to fit inside circle */
+    			background-size: 100%;       /* Scales image to fit inside circle */
     			background-repeat: no-repeat;
     			background-position: center;
     			display: flex;             /* Enables centering */
