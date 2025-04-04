@@ -1448,7 +1448,7 @@ input, select, textarea {
 			#header .logo {
         		width: 4.75rem;  /* 76px if 1rem=16px */
         		height: 4.75rem;
-        		background-image: url('images/02.png');
+        		background-image: url('https://gfl2ordnance.github.io/images/02.png');
     			}
 			
 			#header > * {
